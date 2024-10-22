@@ -1,0 +1,47 @@
+/*-----------NAVBAR--------- */
+nav .menu-sec a:hover {
+    border-bottom: 1px solid #E85C0D;
+    transition: ease-in-out .2s;
+}
+
+
+/*---- BREADCRUM -----*/
+
+ul.breadcrumb {
+    padding: 10px 0;
+    list-style: none;
+    background-color: #FFFF;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+
+ul.breadcrumb li+li:before {
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    text-decoration: none;
+    transition: .2s;
+}
+
+ul.breadcrumb li a:hover {
+    color: #E85C0D;
+    text-decoration: none;
+    transition: ease-in-out.2s;
+}
+
+/*-------- PRODUCT ---------*/
+
+.item__product {
+    transition: .2s;
+}
+
+.item__product:hover {
+    outline: 1px #E85C0D;
+}
+
+/*----RECOMMANDEDR PRODUCT -------------*/
